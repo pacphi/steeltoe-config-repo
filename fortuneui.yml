@@ -3,7 +3,6 @@ eureka:
     shouldRegisterWithEureka: false
 fortuneService:
   scheme: http
-  address: localhost:5000
-  #address: fortuneservice
+  address: fortuneservice
   randomFortunePath: api/fortunes/random
   allFortunesPath: api/fortunes/all
